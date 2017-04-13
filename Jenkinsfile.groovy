@@ -1,3 +1,5 @@
-stage {
-    echo "hello world from Jenkinsfile.groovy"
+node {
+    stage {
+        echo "hello world from Jenkinsfile.groovy"
+    }
 }
